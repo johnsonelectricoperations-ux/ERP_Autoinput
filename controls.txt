@@ -1,0 +1,1147 @@
+Control Identifiers:
+
+Dialog - '존슨일렉트릭오퍼레이션스'    (L-1920, T0, R0, B1019)
+['Dialog', '존슨일렉트릭오퍼레이션스Dialog', '존슨일렉트릭오퍼레이션스', '존슨일렉트릭오퍼레이션스0', '존슨일렉트릭오퍼레이션스1']
+child_window(title="존슨일렉트릭오퍼레이션스", auto_id="mainwindow", control_type="Window")
+   | 
+   | Static - ''    (L-1920, T0, R0, B38)
+   | ['Static', '존슨일렉트릭오퍼레이션스Static', 'Static0', 'Static1', '존슨일렉트릭오퍼레이션스Static0', '존슨일렉트릭오퍼레이션스Static1']
+   | child_window(auto_id="HiddenBar", control_type="Text")
+   | 
+   | Button - 'Button'    (L-1911, T9, R-1890, B30)
+   | ['ButtonButton', 'Button', 'Button0', 'Button1']
+   | child_window(title="Button", auto_id="QuickMenuToggle", control_type="Button")
+   | 
+   | Static - '존슨일렉트릭오퍼레이션스'    (L-1056, T0, R-863, B38)
+   | ['존슨일렉트릭오퍼레이션스2', 'Static2', '존슨일렉트릭오퍼레이션스Static2']
+   | child_window(title="존슨일렉트릭오퍼레이션스", auto_id="PART_TitleLabel", control_type="Text")
+   |    | 
+   |    | Static - '존슨일렉트릭오퍼레이션스'    (L-1050, T9, R-870, B29)
+   |    | ['존슨일렉트릭오퍼레이션스3', 'Static3', '존슨일렉트릭오퍼레이션스Static3']
+   |    | child_window(title="존슨일렉트릭오퍼레이션스", control_type="Text")
+   | 
+   | Edit - ''    (L-344, T6, R-119, B31)
+   | ['Edit', '존슨일렉트릭오퍼레이션스Edit', 'Edit0', 'Edit1']
+   | child_window(auto_id="PART_txtPgmSearch", control_type="Edit")
+   |    | 
+   |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    | 
+   |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    | ['ScrollBar2']
+   |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   | 
+   | Button - ''    (L-119, T6, R-94, B31)
+   | ['존슨일렉트릭오퍼레이션스Button', 'Button2', '존슨일렉트릭오퍼레이션스Button0', '존슨일렉트릭오퍼레이션스Button1']
+   | child_window(auto_id="BtnBtSearch", control_type="Button")
+   | 
+   | Button - ''    (L-92, T0, R-63, B38)
+   | ['존슨일렉트릭오퍼레이션스Button2', 'Button3']
+   | child_window(auto_id="PART_Minimum", control_type="Button")
+   | 
+   | Button - ''    (L-61, T0, R-32, B38)
+   | ['존슨일렉트릭오퍼레이션스Button3', 'Button4']
+   | child_window(auto_id="PART_Maximum", control_type="Button")
+   | 
+   | Button - ''    (L-30, T0, R-1, B38)
+   | ['존슨일렉트릭오퍼레이션스Button4', 'Button5']
+   | child_window(auto_id="PART_Close", control_type="Button")
+   | 
+   | Button - 'Close'    (L0, T0, R0, B0)
+   | ['CloseButton', 'Close', 'Button6', 'CloseButton0', 'CloseButton1', 'Close0', 'Close1']
+   | child_window(title="Close", auto_id="Close", control_type="Button")
+   | 
+   | Button - 'Auto Hide'    (L-1646, T41, R-1627, B60)
+   | ['Auto Hide', 'Auto HideButton', 'Button7']
+   | child_window(title="Auto Hide", auto_id="btnPinAutoHide", control_type="Button")
+   |    | 
+   |    | Image - ''    (L-1645, T43, R-1629, B59)
+   |    | ['Image', 'Image0', 'Image1']
+   | 
+   | Image - ''    (L0, T0, R0, B0)
+   | ['Image2']
+   | 
+   | Pane - 'AngKor.Ylw.Main.Formlib;component/PagMainMenu.xaml'    (L-1845, T63, R-1627, B982)
+   | ['AngKor.Ylw.Main.Formlib;component/PagMainMenu.xamlPane', 'Pane', 'AngKor.Ylw.Main.Formlib;component/PagMainMenu.xaml', 'Pane0', 'Pane1']
+   | child_window(title="AngKor.Ylw.Main.Formlib;component/PagMainMenu.xaml", control_type="Pane")
+   |    | 
+   |    | ComboBox - ''    (L-1845, T63, R-1627, B107)
+   |    | ['ComboBox', 'ComboBoxSystem.Data.DataRowView', 'ComboBox0', 'ComboBox1']
+   |    | child_window(auto_id="cmbModule", control_type="ComboBox")
+   |    | 
+   |    | TreeView - ''    (L-1845, T108, R-1627, B198)
+   |    | ['품목TreeView', 'TreeView']
+   |    | child_window(auto_id="treeview", control_type="Tree")
+   |    |    | 
+   |    |    | TreeItem - 'System.Windows.Controls.TreeViewItem Header: Items.Count:1'    (L-1840, T113, R-1632, B153)
+   |    |    | ['System.Windows.Controls.TreeViewItem Header: Items.Count:1', 'System.Windows.Controls.TreeViewItem Header: Items.Count:1TreeItem', 'TreeItem', 'System.Windows.Controls.TreeViewItem Header: Items.Count:10', 'System.Windows.Controls.TreeViewItem Header: Items.Count:11', 'System.Windows.Controls.TreeViewItem Header: Items.Count:1TreeItem0', 'System.Windows.Controls.TreeViewItem Header: Items.Count:1TreeItem1', 'TreeItem0', 'TreeItem1']
+   |    |    | child_window(title="System.Windows.Controls.TreeViewItem Header: Items.Count:1", control_type="TreeItem")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1840, T113, R-1632, B153)
+   |    |    |    | ['Button8', '품목Button', '품목Button0', '품목Button1']
+   |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '품목'    (L-1809, T123, R-1639, B143)
+   |    |    |    |    | ['품목Static', 'Static4', '품목']
+   |    |    |    |    | child_window(title="품목", control_type="Text")
+   |    |    | 
+   |    |    | TreeItem - 'System.Windows.Controls.TreeViewItem Header: Items.Count:1'    (L-1840, T153, R-1632, B193)
+   |    |    | ['System.Windows.Controls.TreeViewItem Header: Items.Count:12', 'System.Windows.Controls.TreeViewItem Header: Items.Count:1TreeItem2', 'TreeItem2']
+   |    |    | child_window(title="System.Windows.Controls.TreeViewItem Header: Items.Count:1", control_type="TreeItem")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1840, T153, R-1632, B193)
+   |    |    |    | ['Button9', '품목Button2']
+   |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '통화'    (L-1809, T163, R-1639, B183)
+   |    |    |    |    | ['Static5', '통화', '통화Static']
+   |    |    |    |    | child_window(title="통화", control_type="Text")
+   | 
+   | Image - ''    (L-1907, T44, R-1857, B88)
+   | ['Image3']
+   | child_window(auto_id="Icon", control_type="Image")
+   | 
+   | Image - ''    (L-1907, T119, R-1857, B163)
+   | ['Image4']
+   | child_window(auto_id="Icon", control_type="Image")
+   | 
+   | Image - ''    (L-1907, T194, R-1857, B238)
+   | ['Image5']
+   | child_window(auto_id="Icon", control_type="Image")
+   | 
+   | Thumb - ''    (L-1627, T38, R-1619, B982)
+   | ['품목Thumb', 'Thumb', '품목Thumb0', '품목Thumb1', 'Thumb0', 'Thumb1']
+   | 
+   | Custom - ''    (L-1620, T75, R0, B981)
+   | ['Custom', '품목Custom', 'Custom0', 'Custom1', '품목Custom0', '품목Custom1']
+   | child_window(auto_id="FrmPRWkPlan_hsc", control_type="Custom")
+   |    | 
+   |    | Custom - ''    (L-1620, T75, R0, B125)
+   |    | ['Custom2', '품목Custom2']
+   |    | child_window(auto_id="akToolbar", control_type="Custom")
+   |    |    | 
+   |    |    | Toolbar - ''    (L-1620, T75, R-1147, B125)
+   |    |    | ['품목Toolbar', 'Toolbar', 'Toolbar0', 'Toolbar1']
+   |    |    | child_window(auto_id="tbToolBar", control_type="ToolBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1167, T75, R-1147, B125)
+   |    |    |    | ['출력Button', 'Button10']
+   |    |    |    | 
+   |    |    |    | Thumb - ''    (L-1620, T75, R-1607, B125)
+   |    |    |    | ['품목Thumb2', 'Thumb2']
+   |    |    |    | child_window(auto_id="ToolBarThumb", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1607, T76, R-1519, B122)
+   |    |    |    | ['신규Button', 'Button11', '신규Button0', '신규Button1']
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L-1594, T88, R-1569, B113)
+   |    |    |    |    | ['Image6']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '신규'    (L-1566, T88, R-1536, B113)
+   |    |    |    |    | ['신규', 'Static6', '신규Static']
+   |    |    |    |    | child_window(title="신규", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1520, T76, R-1432, B122)
+   |    |    |    | ['신규Button2', 'Button12']
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L-1506, T88, R-1481, B113)
+   |    |    |    |    | ['신규Image', 'Image7']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '조회'    (L-1479, T88, R-1449, B113)
+   |    |    |    |    | ['조회Static', 'Static7', '조회']
+   |    |    |    |    | child_window(title="조회", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1432, T76, R-1344, B122)
+   |    |    |    | ['조회Button', 'Button13']
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L-1419, T88, R-1394, B113)
+   |    |    |    |    | ['조회Image', 'Image8']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '저장'    (L-1391, T88, R-1361, B113)
+   |    |    |    |    | ['저장Static', '저장', 'Static8']
+   |    |    |    |    | child_window(title="저장", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1345, T76, R-1257, B122)
+   |    |    |    | ['저장Button', 'Button14']
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L-1331, T88, R-1306, B113)
+   |    |    |    |    | ['저장Image', 'Image9']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '삭제'    (L-1304, T88, R-1274, B113)
+   |    |    |    |    | ['삭제', '삭제Static', 'Static9']
+   |    |    |    |    | child_window(title="삭제", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L-1257, T76, R-1169, B122)
+   |    |    |    | ['삭제Button', 'Button15']
+   |    |    |    | child_window(auto_id="Print", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Image - ''    (L-1244, T88, R-1219, B113)
+   |    |    |    |    | ['삭제Image', 'Image10']
+   |    |    |    |    | 
+   |    |    |    |    | Static - '출력'    (L-1216, T88, R-1186, B113)
+   |    |    |    |    | ['출력', '출력Static', 'Static10']
+   |    |    |    |    | child_window(title="출력", control_type="Text")
+   |    | 
+   |    | Edit - ''    (L0, T0, R0, B0)
+   |    | ['Edit2']
+   |    | child_window(auto_id="txtFocus", control_type="Edit")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    | ['ScrollBar3']
+   |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    | ['ScrollBar4']
+   |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    | 
+   |    | GroupBox - '조회조건'    (L-1614, T131, R-6, B254)
+   |    | ['GroupBox', '조회조건', '조회조건GroupBox', '조회조건0', '조회조건1', 'GroupBox0', 'GroupBox1']
+   |    | child_window(title="조회조건", auto_id="GridGroupBoxC5", control_type="Group")
+   |    |    | 
+   |    |    | Static - '조회조건'    (L-1584, T134, R-1529, B153)
+   |    |    | ['조회조건2', '조회조건Static', 'Static11']
+   |    |    | child_window(title="조회조건", control_type="Text")
+   |    |    | 
+   |    |    | Custom - ''    (L-1607, T163, R-1301, B198)
+   |    |    | ['Custom3', '근태작업군Custom', '조회조건Custom', '근태작업군Custom0', '근태작업군Custom1']
+   |    |    | child_window(auto_id="cmbWkUnitName", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '근태작업군'    (L-1607, T171, R-1513, B187)
+   |    |    |    | ['근태작업군', '근태작업군Static', 'Static12']
+   |    |    |    | child_window(title="근태작업군", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button16']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L-1510, T163, R-1301, B198)
+   |    |    |    | ['근태작업군ComboBox', 'ComboBox2']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - '한라스택폴'    (L-1506, T170, R-1426, B190)
+   |    |    |    |    | ['Edit3', '근태작업군Edit']
+   |    |    |    |    | child_window(title="한라스택폴", auto_id="PART_EditableTextBox", control_type="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar5']
+   |    |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar6']
+   |    |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '한라스택폴'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem', '한라스택폴ListItem', '한라스택폴', 'ListItem0', 'ListItem1']
+   |    |    |    |    | child_window(title="한라스택폴", control_type="ListItem")
+   |    |    | 
+   |    |    | Custom - ''    (L-1251, T163, R-976, B198)
+   |    |    | ['Custom4', '포지션Custom', '포지션Custom0', '포지션Custom1']
+   |    |    | child_window(auto_id="txtPosNameQry", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '포지션'    (L-1251, T171, R-1188, B187)
+   |    |    |    | ['포지션', '포지션Static', 'Static13', '포지션0', '포지션1', '포지션Static0', '포지션Static1']
+   |    |    |    | child_window(title="포지션", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - 'D0300 (품질관리)'    (L-1185, T163, R-976, B198)
+   |    |    |    | ['Edit4', '포지션Edit', '포지션Edit0', '포지션Edit1']
+   |    |    |    | child_window(title="D0300 (품질관리)", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar7']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar8']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button17']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-951, T163, R-701, B198)
+   |    |    | ['Custom5', '부서Custom', '부서Custom0', '부서Custom1']
+   |    |    | child_window(auto_id="txtDeptNameQry", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '부서'    (L-951, T171, R-913, B187)
+   |    |    |    | ['부서Static', 'Static14', '부서', '부서Static0', '부서Static1', '부서0', '부서1']
+   |    |    |    | child_window(title="부서", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-910, T163, R-701, B198)
+   |    |    |    | ['부서Edit', 'Edit5', '부서Edit0', '부서Edit1']
+   |    |    |    | child_window(auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar9']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar10']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button18']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-1607, T200, R-1413, B235)
+   |    |    | ['Custom6', '근태작업군Custom2']
+   |    |    | child_window(auto_id="datWkDateFr", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '근태계획일'    (L-1607, T209, R-1513, B225)
+   |    |    |    | ['근태계획일', 'Static15', '근태계획일Static']
+   |    |    |    | child_window(title="근태계획일", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '2026-04-01'    (L-1510, T200, R-1414, B235)
+   |    |    |    | ['Edit6', '근태계획일Edit']
+   |    |    |    | child_window(title="2026-04-01", auto_id="EditDate1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar11']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar12']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1407, T200, R-1294, B235)
+   |    |    | ['Custom7', '~Custom']
+   |    |    | child_window(auto_id="datWkDateTo", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '~'    (L-1407, T209, R-1394, B225)
+   |    |    |    | ['~', '~Static', 'Static16']
+   |    |    |    | child_window(title="~", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '2026-04-08'    (L-1391, T200, R-1295, B235)
+   |    |    |    | ['Edit7', '~Edit']
+   |    |    |    | child_window(title="2026-04-08", auto_id="EditDate1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar13']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar14']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1282, T200, R-976, B235)
+   |    |    | ['Custom8', '근태Custom', '근태Custom0', '근태Custom1']
+   |    |    | child_window(auto_id="cmbUMItemTypeNameQry", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '근태'    (L-1282, T209, R-1188, B225)
+   |    |    |    | ['근태', '근태Static', 'Static17', '근태0', '근태1', '근태Static0', '근태Static1']
+   |    |    |    | child_window(title="근태", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button19']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L-1185, T200, R-976, B235)
+   |    |    |    | ['ComboBox휴직', 'ComboBox사용외출', 'ComboBox유선결근', 'ComboBox월차휴가', 'ComboBox3', 'ComboBox년차휴가', 'ComboBox오전반차', 'ComboBox무단결근', 'ComboBox출장', 'ComboBox무급휴가', 'ComboBox생차휴가', 'ComboBox훈련', 'ComboBox조퇴', 'ComboBox공용외출', 'ComboBox산업재해', 'ComboBox오후반차', 'ComboBox유급휴가', 'ComboBox공상', 'ComboBox조합활동', '근태ComboBox', 'ComboBox사외교육', 'ComboBox휴직0', 'ComboBox휴직1', 'ComboBox유선결근0', 'ComboBox유선결근1', 'ComboBox월차휴가0', 'ComboBox월차휴가1', 'ComboBox년차휴가0', 'ComboBox년차휴가1', 'ComboBox오전반차0', 'ComboBox오전반차1', 'ComboBox무단결근0', 'ComboBox무단결근1', 'ComboBox출장0', 'ComboBox출장1', 'ComboBox무급휴가0', 'ComboBox무급휴가1', 'ComboBox생차휴가0', 'ComboBox생차휴가1', 'ComboBox훈련0', 'ComboBox훈련1', 'ComboBox조퇴0', 'ComboBox조퇴1', 'ComboBox공용외출0', 'ComboBox공용외출1', 'ComboBox산업재해0', 'ComboBox산업재해1', 'ComboBox오후반차0', 'ComboBox오후반차1', 'ComboBox유급휴가0', 'ComboBox유급휴가1', 'ComboBox공상0', 'ComboBox공상1', 'ComboBox조합활동0', 'ComboBox조합활동1', '근태ComboBox0', '근태ComboBox1', 'ComboBox사외교육0', 'ComboBox사외교육1']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L-1181, T208, R-1176, B228)
+   |    |    |    |    | ['근태Edit', 'Edit8', '근태Edit0', '근태Edit1']
+   |    |    |    |    | child_window(auto_id="PART_EditableTextBox", control_type="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar15']
+   |    |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar16']
+   |    |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'System.Windows.Controls.ComboBoxItem'    (L0, T0, R0, B0)
+   |    |    |    |    | ['System.Windows.Controls.ComboBoxItemListItem', 'ListItem2', 'System.Windows.Controls.ComboBoxItem', 'System.Windows.Controls.ComboBoxItemListItem0', 'System.Windows.Controls.ComboBoxItemListItem1', 'System.Windows.Controls.ComboBoxItem0', 'System.Windows.Controls.ComboBoxItem1']
+   |    |    |    |    | child_window(title="System.Windows.Controls.ComboBoxItem", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '사용외출'    (L0, T0, R0, B0)
+   |    |    |    |    | ['사용외출', '사용외출ListItem', 'ListItem3', '사용외출0', '사용외출1', '사용외출ListItem0', '사용외출ListItem1']
+   |    |    |    |    | child_window(title="사용외출", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '공용외출'    (L0, T0, R0, B0)
+   |    |    |    |    | ['공용외출ListItem', 'ListItem4', '공용외출', '공용외출ListItem0', '공용외출ListItem1', '공용외출0', '공용외출1']
+   |    |    |    |    | child_window(title="공용외출", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '출장'    (L0, T0, R0, B0)
+   |    |    |    |    | ['출장ListItem', 'ListItem5', '출장', '출장ListItem0', '출장ListItem1', '출장0', '출장1']
+   |    |    |    |    | child_window(title="출장", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '조퇴'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem6', '조퇴', '조퇴ListItem', '조퇴0', '조퇴1', '조퇴ListItem0', '조퇴ListItem1']
+   |    |    |    |    | child_window(title="조퇴", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '월차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['월차휴가', 'ListItem7', '월차휴가ListItem', '월차휴가0', '월차휴가1', '월차휴가ListItem0', '월차휴가ListItem1']
+   |    |    |    |    | child_window(title="월차휴가", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '년차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['년차휴가ListItem', 'ListItem8', '년차휴가', '년차휴가ListItem0', '년차휴가ListItem1', '년차휴가0', '년차휴가1']
+   |    |    |    |    | child_window(title="년차휴가", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '생차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['생차휴가ListItem', 'ListItem9', '생차휴가', '생차휴가ListItem0', '생차휴가ListItem1', '생차휴가0', '생차휴가1']
+   |    |    |    |    | child_window(title="생차휴가", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '유급휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem10', '유급휴가', '유급휴가ListItem', '유급휴가0', '유급휴가1', '유급휴가ListItem0', '유급휴가ListItem1']
+   |    |    |    |    | child_window(title="유급휴가", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '무급휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['무급휴가', 'ListItem11', '무급휴가ListItem', '무급휴가0', '무급휴가1', '무급휴가ListItem0', '무급휴가ListItem1']
+   |    |    |    |    | child_window(title="무급휴가", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '훈련'    (L0, T0, R0, B0)
+   |    |    |    |    | ['훈련ListItem', 'ListItem12', '훈련', '훈련ListItem0', '훈련ListItem1', '훈련0', '훈련1']
+   |    |    |    |    | child_window(title="훈련", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '사외교육'    (L0, T0, R0, B0)
+   |    |    |    |    | ['사외교육', 'ListItem13', '사외교육ListItem', '사외교육0', '사외교육1', '사외교육ListItem0', '사외교육ListItem1']
+   |    |    |    |    | child_window(title="사외교육", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '휴직'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem14', '휴직ListItem', '휴직', '휴직ListItem0', '휴직ListItem1', '휴직0', '휴직1']
+   |    |    |    |    | child_window(title="휴직", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '조합활동'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem15', '조합활동', '조합활동ListItem', '조합활동0', '조합활동1', '조합활동ListItem0', '조합활동ListItem1']
+   |    |    |    |    | child_window(title="조합활동", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '유선결근'    (L0, T0, R0, B0)
+   |    |    |    |    | ['유선결근ListItem', 'ListItem16', '유선결근', '유선결근ListItem0', '유선결근ListItem1', '유선결근0', '유선결근1']
+   |    |    |    |    | child_window(title="유선결근", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '무단결근'    (L0, T0, R0, B0)
+   |    |    |    |    | ['무단결근ListItem', '무단결근', 'ListItem17', '무단결근ListItem0', '무단결근ListItem1', '무단결근0', '무단결근1']
+   |    |    |    |    | child_window(title="무단결근", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '공상'    (L0, T0, R0, B0)
+   |    |    |    |    | ['공상ListItem', 'ListItem18', '공상', '공상ListItem0', '공상ListItem1', '공상0', '공상1']
+   |    |    |    |    | child_window(title="공상", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '산업재해'    (L0, T0, R0, B0)
+   |    |    |    |    | ['산업재해ListItem', '산업재해', 'ListItem19', '산업재해ListItem0', '산업재해ListItem1', '산업재해0', '산업재해1']
+   |    |    |    |    | child_window(title="산업재해", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '오전반차'    (L0, T0, R0, B0)
+   |    |    |    |    | ['오전반차', 'ListItem20', '오전반차ListItem', '오전반차0', '오전반차1', '오전반차ListItem0', '오전반차ListItem1']
+   |    |    |    |    | child_window(title="오전반차", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '오후반차'    (L0, T0, R0, B0)
+   |    |    |    |    | ['오후반차', '오후반차ListItem', 'ListItem21', '오후반차0', '오후반차1', '오후반차ListItem0', '오후반차ListItem1']
+   |    |    |    |    | child_window(title="오후반차", control_type="ListItem")
+   |    | 
+   |    | GroupBox - '기본입력'    (L-1614, T266, R-6, B457)
+   |    | ['GroupBox2', '기본입력', '기본입력GroupBox', '기본입력0', '기본입력1']
+   |    | child_window(title="기본입력", auto_id="GridGroupBoxC6", control_type="Group")
+   |    |    | 
+   |    |    | Static - '기본입력'    (L-1584, T269, R-1529, B288)
+   |    |    | ['기본입력Static', '기본입력2', 'Static18']
+   |    |    | child_window(title="기본입력", control_type="Text")
+   |    |    | 
+   |    |    | Custom - ''    (L-657, T391, R-351, B426)
+   |    |    | ['Custom9', '포지션Custom2', '기본입력Custom']
+   |    |    | child_window(auto_id="fltTransSeq", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '배차내부코드'    (L-657, T399, R-563, B415)
+   |    |    |    | ['배차내부코드Static', 'Static19', '배차내부코드']
+   |    |    |    | child_window(title="배차내부코드", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '0'    (L-560, T391, R-351, B426)
+   |    |    |    | ['부서Edit2', 'Edit9']
+   |    |    |    | child_window(title="0", auto_id="floatBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar17']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar18']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1607, T298, R-1301, B333)
+   |    |    | ['Custom10', '관리번호Custom', '관리번호Custom0', '관리번호Custom1']
+   |    |    | child_window(auto_id="txtRefNo", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '관리번호'    (L-1607, T306, R-1513, B322)
+   |    |    |    | ['관리번호', 'Static20', '관리번호Static']
+   |    |    |    | child_window(title="관리번호", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-1510, T298, R-1301, B333)
+   |    |    |    | ['Edit10', '관리번호Edit']
+   |    |    |    | child_window(auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar19']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar20']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button20']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-1289, T298, R-983, B333)
+   |    |    | ['사원명Custom', 'Custom11', '사원명Custom0', '사원명Custom1']
+   |    |    | child_window(auto_id="txtEmpName", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '사원명'    (L-1289, T306, R-1195, B322)
+   |    |    |    | ['사원명', 'Static21', '사원명Static']
+   |    |    |    | child_window(title="사원명", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '이진용'    (L-1191, T298, R-982, B333)
+   |    |    |    | ['Edit11', '사원명Edit']
+   |    |    |    | child_window(title="이진용", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar21']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar22']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button21']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-957, T298, R-832, B333)
+   |    |    | ['Custom12', '부서Custom2']
+   |    |    | child_window(auto_id="txtEmpID", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Static22']
+   |    |    |    | child_window(auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - 'HSA0018'    (L-954, T298, R-833, B333)
+   |    |    |    | ['부서Edit3', 'Edit12']
+   |    |    |    | child_window(title="HSA0018", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar23']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar24']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button22']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-801, T298, R-538, B333)
+   |    |    | ['Custom13', '포지션Custom3']
+   |    |    | child_window(auto_id="txtPosName", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '포지션'    (L-801, T306, R-751, B322)
+   |    |    |    | ['포지션2', '포지션Static2', 'Static23']
+   |    |    |    | child_window(title="포지션", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - 'D0300 (품질관리)'    (L-747, T298, R-538, B333)
+   |    |    |    | ['Edit13', '포지션Edit2']
+   |    |    |    | child_window(title="D0300 (품질관리)", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar25']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar26']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button23']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-539, T298, R-289, B333)
+   |    |    | ['Custom14', '부서Custom3']
+   |    |    | child_window(auto_id="txtDeptName", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '부서'    (L-539, T306, R-501, B322)
+   |    |    |    | ['부서Static2', 'Static24', '부서2']
+   |    |    |    | child_window(title="부서", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '품질관리'    (L-497, T298, R-288, B333)
+   |    |    |    | ['부서Edit4', 'Edit14']
+   |    |    |    | child_window(title="품질관리", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar27']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar28']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button24']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-1607, T335, R-1301, B370)
+   |    |    | ['Custom15', '관리번호Custom2']
+   |    |    | child_window(auto_id="cmbUMItemTypeName", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '근태'    (L-1607, T344, R-1513, B360)
+   |    |    |    | ['근태2', '근태Static2', 'Static25']
+   |    |    |    | child_window(title="근태", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button25']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L-1510, T335, R-1301, B370)
+   |    |    |    | ['ComboBox휴직2', 'ComboBox유선결근2', 'ComboBox월차휴가2', 'ComboBox4', 'ComboBox년차휴가2', 'ComboBox오전반차2', 'ComboBox무단결근2', 'ComboBox출장2', 'ComboBox무급휴가2', 'ComboBox생차휴가2', 'ComboBox훈련2', 'ComboBox조퇴2', 'ComboBox공용외출2', 'ComboBox산업재해2', 'ComboBox오후반차2', 'ComboBox유급휴가2', 'ComboBox공상2', 'ComboBox조합활동2', '근태ComboBox2', 'ComboBox사외교육2']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - '사용외출'    (L-1506, T343, R-1441, B363)
+   |    |    |    |    | ['근태Edit2', 'Edit15']
+   |    |    |    |    | child_window(title="사용외출", auto_id="PART_EditableTextBox", control_type="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar29']
+   |    |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar30']
+   |    |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '사용외출'    (L0, T0, R0, B0)
+   |    |    |    |    | ['사용외출2', '사용외출ListItem2', 'ListItem22']
+   |    |    |    |    | child_window(title="사용외출", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '사용외출'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['사용외출3', '사용외출Static', 'Static26']
+   |    |    |    |    |    | child_window(title="사용외출", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '공용외출'    (L0, T0, R0, B0)
+   |    |    |    |    | ['공용외출ListItem2', 'ListItem23', '공용외출2']
+   |    |    |    |    | child_window(title="공용외출", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '공용외출'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static27', '공용외출Static', '공용외출3']
+   |    |    |    |    |    | child_window(title="공용외출", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '출장'    (L0, T0, R0, B0)
+   |    |    |    |    | ['출장ListItem2', 'ListItem24', '출장2']
+   |    |    |    |    | child_window(title="출장", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '출장'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static28', '출장Static', '출장3']
+   |    |    |    |    |    | child_window(title="출장", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '조퇴'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem25', '조퇴2', '조퇴ListItem2']
+   |    |    |    |    | child_window(title="조퇴", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '조퇴'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['조퇴3', 'Static29', '조퇴Static']
+   |    |    |    |    |    | child_window(title="조퇴", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '월차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['월차휴가2', 'ListItem26', '월차휴가ListItem2']
+   |    |    |    |    | child_window(title="월차휴가", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '월차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['월차휴가3', 'Static30', '월차휴가Static']
+   |    |    |    |    |    | child_window(title="월차휴가", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '년차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['년차휴가ListItem2', 'ListItem27', '년차휴가2']
+   |    |    |    |    | child_window(title="년차휴가", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '년차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['년차휴가3', 'Static31', '년차휴가Static']
+   |    |    |    |    |    | child_window(title="년차휴가", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '생차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['생차휴가ListItem2', 'ListItem28', '생차휴가2']
+   |    |    |    |    | child_window(title="생차휴가", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '생차휴가'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static32', '생차휴가Static', '생차휴가3']
+   |    |    |    |    |    | child_window(title="생차휴가", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '유급휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem29', '유급휴가2', '유급휴가ListItem2']
+   |    |    |    |    | child_window(title="유급휴가", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '유급휴가'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['유급휴가3', 'Static33', '유급휴가Static']
+   |    |    |    |    |    | child_window(title="유급휴가", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '무급휴가'    (L0, T0, R0, B0)
+   |    |    |    |    | ['무급휴가2', 'ListItem30', '무급휴가ListItem2']
+   |    |    |    |    | child_window(title="무급휴가", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '무급휴가'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['무급휴가3', 'Static34', '무급휴가Static']
+   |    |    |    |    |    | child_window(title="무급휴가", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '훈련'    (L0, T0, R0, B0)
+   |    |    |    |    | ['훈련ListItem2', 'ListItem31', '훈련2']
+   |    |    |    |    | child_window(title="훈련", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '훈련'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static35', '훈련Static', '훈련3']
+   |    |    |    |    |    | child_window(title="훈련", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '사외교육'    (L0, T0, R0, B0)
+   |    |    |    |    | ['사외교육2', 'ListItem32', '사외교육ListItem2']
+   |    |    |    |    | child_window(title="사외교육", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '사외교육'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['사외교육Static', '사외교육3', 'Static36']
+   |    |    |    |    |    | child_window(title="사외교육", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '휴직'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem33', '휴직ListItem2', '휴직2']
+   |    |    |    |    | child_window(title="휴직", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '휴직'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['휴직3', 'Static37', '휴직Static']
+   |    |    |    |    |    | child_window(title="휴직", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '조합활동'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem34', '조합활동2', '조합활동ListItem2']
+   |    |    |    |    | child_window(title="조합활동", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '조합활동'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['조합활동3', 'Static38', '조합활동Static']
+   |    |    |    |    |    | child_window(title="조합활동", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '유선결근'    (L0, T0, R0, B0)
+   |    |    |    |    | ['유선결근ListItem2', 'ListItem35', '유선결근2']
+   |    |    |    |    | child_window(title="유선결근", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '유선결근'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static39', '유선결근3', '유선결근Static']
+   |    |    |    |    |    | child_window(title="유선결근", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '무단결근'    (L0, T0, R0, B0)
+   |    |    |    |    | ['무단결근ListItem2', '무단결근2', 'ListItem36']
+   |    |    |    |    | child_window(title="무단결근", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '무단결근'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['무단결근3', '무단결근Static', 'Static40']
+   |    |    |    |    |    | child_window(title="무단결근", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '공상'    (L0, T0, R0, B0)
+   |    |    |    |    | ['공상ListItem2', 'ListItem37', '공상2']
+   |    |    |    |    | child_window(title="공상", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '공상'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['공상Static', 'Static41', '공상3']
+   |    |    |    |    |    | child_window(title="공상", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '산업재해'    (L0, T0, R0, B0)
+   |    |    |    |    | ['산업재해ListItem2', '산업재해2', 'ListItem38']
+   |    |    |    |    | child_window(title="산업재해", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '산업재해'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['산업재해3', 'Static42', '산업재해Static']
+   |    |    |    |    |    | child_window(title="산업재해", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '오전반차'    (L0, T0, R0, B0)
+   |    |    |    |    | ['오전반차2', 'ListItem39', '오전반차ListItem2']
+   |    |    |    |    | child_window(title="오전반차", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '오전반차'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['오전반차Static', '오전반차3', 'Static43']
+   |    |    |    |    |    | child_window(title="오전반차", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '오후반차'    (L0, T0, R0, B0)
+   |    |    |    |    | ['오후반차2', '오후반차ListItem2', 'ListItem40']
+   |    |    |    |    | child_window(title="오후반차", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '오후반차'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['오후반차3', 'Static44', '오후반차Static']
+   |    |    |    |    |    | child_window(title="오후반차", control_type="Text")
+   |    |    | 
+   |    |    | Custom - ''    (L-1289, T335, R-283, B370)
+   |    |    | ['사원명Custom2', 'Custom16']
+   |    |    | child_window(auto_id="txtDescription", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '사유'    (L-1289, T344, R-1195, B360)
+   |    |    |    | ['사유', '사유Static', 'Static45']
+   |    |    |    | child_window(title="사유", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-1191, T335, R-282, B370)
+   |    |    |    | ['Edit16', '사유Edit']
+   |    |    |    | child_window(auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar31']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar32']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button26']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-1607, T373, R-1413, B408)
+   |    |    | ['Custom17', '근태Custom2']
+   |    |    | child_window(auto_id="datStartDate", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '근태시작일'    (L-1607, T381, R-1513, B397)
+   |    |    |    | ['근태시작일', '근태시작일Static', 'Static46']
+   |    |    |    | child_window(title="근태시작일", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-1510, T373, R-1414, B408)
+   |    |    |    | ['Edit17', '근태시작일Edit', '근태시작일Edit0', '근태시작일Edit1']
+   |    |    |    | child_window(auto_id="EditDate1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar33']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar34']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1401, T373, R-1351, B408)
+   |    |    | ['근태시작일Custom', 'Custom18', '근태시작일Custom0', '근태시작일Custom1']
+   |    |    | child_window(auto_id="mskStartTime", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Static47']
+   |    |    |    | child_window(auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '__:__'    (L-1397, T373, R-1351, B408)
+   |    |    |    | ['Edit18', '근태시작일Edit2']
+   |    |    |    | child_window(title="__:__", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar35']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar36']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1289, T373, R-1095, B408)
+   |    |    | ['Custom19', '사유Custom']
+   |    |    | child_window(auto_id="datEndDate", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '근태종료일'    (L-1289, T381, R-1195, B397)
+   |    |    |    | ['근태종료일Static', 'Static48', '근태종료일']
+   |    |    |    | child_window(title="근태종료일", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-1191, T373, R-1095, B408)
+   |    |    |    | ['근태종료일Edit', 'Edit19', '근태종료일Edit0', '근태종료일Edit1']
+   |    |    |    | child_window(auto_id="EditDate1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar37']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar38']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1082, T373, R-1032, B408)
+   |    |    | ['Custom20', '근태종료일Custom', '근태종료일Custom0', '근태종료일Custom1']
+   |    |    | child_window(auto_id="mskEndTime", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Static49']
+   |    |    |    | child_window(auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - '__:__'    (L-1079, T373, R-1033, B408)
+   |    |    |    | ['근태종료일Edit2', 'Edit20']
+   |    |    |    | child_window(title="__:__", auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar39']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar40']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Custom - ''    (L-1020, T373, R-745, B408)
+   |    |    | ['Custom21', '작성일시Custom']
+   |    |    | child_window(auto_id="txtLastDateTime", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '작성일시'    (L-1020, T381, R-957, B397)
+   |    |    |    | ['작성일시', '작성일시Static', 'Static50']
+   |    |    |    | child_window(title="작성일시", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-954, T373, R-745, B408)
+   |    |    |    | ['작성일시Edit', 'Edit21']
+   |    |    |    | child_window(auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar41']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar42']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button27']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-1607, T410, R-1301, B445)
+   |    |    | ['근태시작일Custom2', 'Custom22']
+   |    |    | child_window(auto_id="cmbUMCarUseName", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '배차여부'    (L-1607, T419, R-1513, B435)
+   |    |    |    | ['배차여부Static', '배차여부', 'Static51']
+   |    |    |    | child_window(title="배차여부", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button28']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L-1510, T410, R-1301, B445)
+   |    |    |    | ['ComboBox아니오', 'ComboBox5', '배차여부ComboBox', 'ComboBox예']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L-1506, T418, R-1501, B438)
+   |    |    |    |    | ['Edit22', '배차여부Edit']
+   |    |    |    |    | child_window(auto_id="PART_EditableTextBox", control_type="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar43']
+   |    |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar44']
+   |    |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'System.Windows.Controls.ComboBoxItem'    (L0, T0, R0, B0)
+   |    |    |    |    | ['System.Windows.Controls.ComboBoxItemListItem2', 'ListItem41', 'System.Windows.Controls.ComboBoxItem2']
+   |    |    |    |    | child_window(title="System.Windows.Controls.ComboBoxItem", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '예'    (L0, T0, R0, B0)
+   |    |    |    |    | ['예', '예ListItem', 'ListItem42']
+   |    |    |    |    | child_window(title="예", control_type="ListItem")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - '아니오'    (L0, T0, R0, B0)
+   |    |    |    |    | ['아니오', 'ListItem43', '아니오ListItem']
+   |    |    |    |    | child_window(title="아니오", control_type="ListItem")
+   |    |    | 
+   |    |    | Custom - ''    (L-1289, T410, R-1039, B445)
+   |    |    | ['Custom23', '근태종료일Custom2']
+   |    |    | child_window(auto_id="txtCarNo", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '배차번호'    (L-1289, T419, R-1195, B435)
+   |    |    |    | ['배차번호', '배차번호Static', 'Static52']
+   |    |    |    | child_window(title="배차번호", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-1191, T410, R-1038, B445)
+   |    |    |    | ['Edit23', '배차번호Edit']
+   |    |    |    | child_window(auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar45']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar46']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button29']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    |    | 
+   |    |    | Custom - ''    (L-1007, T410, R-744, B445)
+   |    |    | ['Custom24', '연락처Custom']
+   |    |    | child_window(auto_id="txtCellPhone", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - '연락처'    (L-1007, T419, R-957, B435)
+   |    |    |    | ['연락처Static', 'Static53', '연락처']
+   |    |    |    | child_window(title="연락처", auto_id="textblock1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L-954, T410, R-745, B445)
+   |    |    |    | ['Edit24', '연락처Edit']
+   |    |    |    | child_window(auto_id="textBox1", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar47']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar48']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Button30']
+   |    |    |    | child_window(auto_id="tgMCTextBox", control_type="Button")
+   |    | 
+   |    | Custom - ''    (L-1614, T470, R-6, B975)
+   |    | ['Custom25', '배차여부Custom']
+   |    | child_window(auto_id="SS1", control_type="Custom")
+   |    |    | 
+   |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    | ['Static54']
+   |    |    | child_window(auto_id="txtCaption", control_type="Text")
+   |    |    | 
+   |    |    | Edit - ''    (L0, T0, R0, B0)
+   |    |    | ['Edit25']
+   |    |    | child_window(auto_id="txtFocusHandle", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar49']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar50']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Toolbar - ''    (L0, T0, R0, B0)
+   |    |    | ['Toolbar2']
+   |    |    | 
+   |    |    | Pane - ''    (L-1612, T471, R-7, B974)
+   |    |    | ['배차여부Pane', 'Pane2', '배차여부Pane0', '배차여부Pane1']
+   |    |    | child_window(auto_id="wfh2", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L-1612, T471, R-7, B974)
+   |    |    |    | ['배차여부Pane2', 'Pane3']
+   |    |    |    | child_window(auto_id="SS1", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-1612, T471, R-4, B976)
+   |    |    |    |    | ['배차여부Pane3', 'Pane4']
+   |    |    |    |    | child_window(auto_id="SS1", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L-1605, T955, R-5, B976)
+   |    |    |    |    |    | ['배차여부Pane4', 'Pane5']
+   |    |    |    |    |    | child_window(auto_id="3606770", control_type="Pane")
+   | 
+   | Button - 'Close'    (L-25, T44, R0, B69)
+   | ['CloseButton2', 'Close2', 'Button31']
+   | child_window(title="Close", auto_id="Close", control_type="Button")
+   | 
+   | Button - ''    (L-50, T44, R-25, B69)
+   | ['존슨일렉트릭오퍼레이션스Button5', 'Button32']
+   | child_window(auto_id="PART_ShowContextMenuButton", control_type="Button")
+   | 
+   | Image - ''    (L0, T0, R0, B0)
+   | ['Image11']
+   | child_window(auto_id="PART_LockedIcon", control_type="Image")
+   | 
+   | Button - 'Close'    (L0, T0, R0, B0)
+   | ['CloseButton3', 'Close3', 'Button33']
+   | child_window(title="Close", auto_id="BtnClose", control_type="Button")
+   | 
+   | Image - ''    (L0, T0, R0, B0)
+   | ['Image12']
+   | child_window(auto_id="PART_LockedIcon", control_type="Image")
+   | 
+   | Button - 'Close'    (L-1472, T44, R-1447, B69)
+   | ['CloseButton4', 'Close4', 'Button34']
+   | child_window(title="Close", auto_id="BtnClose", control_type="Button")
+   | 
+   | Button - '0'    (L0, T0, R0, B0)
+   | ['0', '0Button', 'Button35']
+   | child_window(title="0", auto_id="btnAlarm", control_type="Button")
+   | 
+   | Button - ''    (L-1920, T731, R-1845, B794)
+   | ['Button36']
+   | child_window(auto_id="GMenuButton", control_type="Button")
+   |    | 
+   |    | Image - ''    (L-1907, T741, R-1857, B785)
+   |    | ['Image13']
+   | 
+   | Button - ''    (L-1920, T794, R-1845, B857)
+   | ['Button37']
+   | child_window(auto_id="Home", control_type="Button")
+   |    | 
+   |    | Image - ''    (L-1907, T804, R-1857, B848)
+   |    | ['Image14']
+   | 
+   | Button - ''    (L-1920, T856, R-1845, B919)
+   | ['Button38']
+   | child_window(auto_id="Favorites", control_type="Button")
+   |    | 
+   |    | Image - ''    (L-1907, T866, R-1857, B910)
+   |    | ['Image15']
+   | 
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button39']
+   | child_window(auto_id="ProcessMenu", control_type="Button")
+   | 
+   | Button - ''    (L-1920, T919, R-1845, B982)
+   | ['Button40']
+   | child_window(auto_id="Logout", control_type="Button")
+   |    | 
+   |    | Image - ''    (L-1907, T929, R-1857, B973)
+   |    | ['Image16']
+   | 
+   | Toolbar - ''    (L-1914, T981, R-1683, B1019)
+   | ['거래처등록Toolbar', 'Toolbar3', 'Toolbar거래처등록']
+   | child_window(auto_id="PART_ToolBarLeftBottom", control_type="ToolBar")
+   |    | 
+   |    | Button - ''    (L-1702, T983, R-1683, B1018)
+   |    | ['거래처등록Button', 'Button41', '거래처등록Button0', '거래처등록Button1']
+   |    | child_window(auto_id="OverflowButton", control_type="Button")
+   |    |    | 
+   |    |    | Image - ''    (L-1694, T985, R-1683, B994)
+   |    |    | ['거래처등록Image', 'Image17']
+   |    | 
+   |    | Button - '거래처등록'    (L0, T0, R0, B0)
+   |    | ['거래처등록Button2', '거래처등록', 'Button42', '거래처등록0', '거래처등록1']
+   |    | child_window(title="거래처등록", control_type="Button")
+   |    |    | 
+   |    |    | Static - '거래처등록'    (L-1764, T990, R-1695, B1009)
+   |    |    | ['Static55', '거래처등록Static', '거래처등록2']
+   |    |    | child_window(title="거래처등록", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '거래처등록'    (L0, T0, R0, B0)
+   |    |    | ['Edit26']
+   |    |    | child_window(title="거래처등록", auto_id="txtReplaceBox", control_type="Edit")
+   | 
+   | Thumb - ''    (L-1676, T981, R-1670, B1019)
+   | ['Thumb3', '거래처등록Thumb']
+   | 
+   | Thumb - ''    (L-462, T981, R-456, B1019)
+   | ['부서Thumb', 'Thumb4']
+   | 
+   | Slider - ''    (L-194, T986, R-63, B1014)
+   | ['Slider', '부서Slider']
+   | child_window(auto_id="PART_ZoomSlider", control_type="Slider")
+   |    | 
+   |    | Button - ''    (L-175, T986, R-154, B1014)
+   |    | ['Button43']
+   |    | child_window(auto_id="DecreaseLarge", control_type="Button")
+   |    | 
+   |    | Thumb - ''    (L-154, T986, R-136, B1014)
+   |    | ['Thumb5']
+   |    | 
+   |    | Button - ''    (L-136, T986, R-81, B1014)
+   |    | ['Button44']
+   |    | child_window(auto_id="IncreaseLarge", control_type="Button")
+   | 
+   | ComboBox - ''    (L-56, T981, R0, B1019)
+   | ['ComboBox100%', 'ComboBox120%', 'ComboBox6', 'ComboBox150%', 'ComboBox80%']
+   | child_window(auto_id="PART_ZoomCombo", control_type="ComboBox")
+   |    | 
+   |    | Edit - '100%'    (L-55, T990, R-12, B1010)
+   |    | ['Edit27']
+   |    | child_window(title="100%", auto_id="PART_EditableTextBox", control_type="Edit")
+   |    | 
+   |    | ListItem - 'User'    (L0, T0, R0, B0)
+   |    | ['UserListItem', 'ListItem44', 'User']
+   |    | child_window(title="User", control_type="ListItem")
+   |    | 
+   |    | ListItem - '80%'    (L0, T0, R0, B0)
+   |    | ['80%ListItem', '80%', 'ListItem45']
+   |    | child_window(title="80%", control_type="ListItem")
+   |    | 
+   |    | ListItem - '100%'    (L0, T0, R0, B0)
+   |    | ['100%', 'ListItem46', '100%ListItem']
+   |    | child_window(title="100%", control_type="ListItem")
+   |    | 
+   |    | ListItem - '120%'    (L0, T0, R0, B0)
+   |    | ['120%ListItem', '120%', 'ListItem47']
+   |    | child_window(title="120%", control_type="ListItem")
+   |    | 
+   |    | ListItem - '150%'    (L0, T0, R0, B0)
+   |    | ['150%ListItem', 'ListItem48', '150%']
+   |    | child_window(title="150%", control_type="ListItem")
+   | 
+   | Progress - ''    (L0, T0, R0, B0)
+   | ['Progress']
+   | child_window(auto_id="PART_ProgLoading", control_type="ProgressBar")
