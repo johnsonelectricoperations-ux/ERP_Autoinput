@@ -38,12 +38,21 @@
   - 순서: 읽기전용 대시보드는 Phase 3.5(3~4일), 전체 웹앱은 Phase 6(2~3주)
   - **Runner에 선반영 필요 4가지**: ① 진행상황을 콘솔이 아닌 state.db에 기록 ② 하트비트 10초 주기
     ③ 킬스위치를 DB 플래그로도 확인 ④ 검증 로직을 validator.py로 분리(웹 업로드 화면에서 재사용)
-- `ScreenSaverIsSecure` 확인 결과 (2026-08-19)
-  - `reg query "HKCU\Control Panel\Desktop" /v ScreenSaverIsSecure` → **값을 찾을 수 없음**
-  - 해석: 설정된 적 없음 = 기본값 0 = 화면보호기가 떠도 세션은 안 잠김 → **긍정적 신호**
-  - 단, HKCU에 화면보호기 값이 하나도 없는데 실제로는 화면보호기가 실행되므로
-    **GPO가 정책 경로에서 강제 중일 가능성** → `HKCU\Software\Policies\...` 및
-    `HKLM\Software\Policies\...` 경로 확인 필요 (구상안 6.5에 PowerShell 스크립트 추가함)
+- ★ 운영 PC 잠금 정책 실측 결과 (2026-08-19) — **구상안 6.5에 전문 기록**
+  - `HKCU\Control Panel\Desktop` → `ScreenSaveActive=1`, 나머지 값 비어 있음
+  - **`HKCU\Software\Policies\Microsoft\Windows\Control Panel\Desktop` (GPO)**
+    → `ScreenSaveActive=1` / `ScreenSaveTimeOut=600` / **`ScreenSaverIsSecure=1`**
+    / `SCRNSAVE.EXE=C:\Program Files\JE\scrnsave.scr` (회사 자체 제작 화면보호기)
+  - **`HKLM\...\Policies\System\InactivityTimeoutSecs=900`** (유휴 15분 강제 잠금, 독립된 2차 잠금)
+  - 결론: **유휴 10분 → 화면보호기 → 세션 잠금**이 GPO로 강제됨.
+    레지스트리를 직접 고쳐도 GPO 갱신 주기(90분±30분)마다 되돌아오므로 **6.4 방식은 적용 불가**
+  - 단, 두 정책 모두 **유휴 시간 기준**이라 유휴 타이머를 60초마다 리셋하면 방어됨 (마진 10배)
+  - ⚠️ 이로써 **지글러가 시스템의 급소**가 됨. 지글러가 멈추면 10분 뒤 세션 잠금 = 하루 작업 사망
+    ⇒ 지글러 생존 감시(120초 이상 미갱신 시 중단+알림) · 매 건 잠금 감지 · 크래시 시 알림 추가
+  - ⚠️ 유휴 타이머 리셋은 회사의 "자리비움 시 잠금" 정책을 무력화하는 동작이므로
+    **IT/보안 담당 사전 합의 필요.** 정책 예외 OU로 빼는 것이 더 깔끔한 정공법
+  - 협의 불가 시 대안: **업무시간 중 실행** (사람이 PC를 쓰면 유휴가 안 쌓여 정책과 무충돌.
+    ERP도 이미 로그인돼 있어 로그인 자동화까지 불필요해짐. 단 ERP 창 점유 충돌은 해결 필요)
 - 다음 할 일
   - 남은 질문 (구상안 12장) 답변 대기. 2번은 위와 같이 부분 해소, GPO 정책 경로 확인만 남음
   - Phase 1 착수: 레시피 로더 + `fields.py` 3단 폴백 + 기존 근태 화면을 YAML로 재현해
